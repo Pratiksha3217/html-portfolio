@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family :Verdana, Geneva, Tahoma, sans-serif
+    margin: 15px*13px;
+    font size:17px;
+    padding:8px;
+}
+.container{
+    background-color: #4443432f;
+    padding:5px 20px 15px 20px;
+    border: 1px type solid solid grey;
+    border-radius 4px;
+}
+
+input[type="text"],
+input[type="radio"],
+input[type="Address"],
+input[type="Email"],
+input[type="number"],
+
+input[type="submit"],
+
+textarea{
+    width:100%;
+    padding:12px;
+    border-radius: 5px;
+}
+.bar{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 20px;
+
+
+}
+
+/* styles.css */
+.h4{
+    flex:left;
+    padding:5px 20px 15px 20px;
+    border: 1px type solid solid grey;
+}
+.lic{
+    float: right;
+   display:inline-block;
+   
+   width:100px;
+   height:100px;
+
+}
+
+
+fieldset{
+    background-color:#4443432f ;
+    border:1 px solid #ccc;
+}
+.main_heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.info{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="submit"]{
+    background-color: rgb(53, 124, 101);
+    border:none;
+    width:35%;
+
+    
+}
